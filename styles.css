@@ -1,0 +1,120 @@
+*{
+    font-family: Georgia;
+    color:black;
+}
+
+#wrapper{
+    height: 100vh;
+}
+
+#header{
+    top:0;
+    left:0;
+    height: 10%;
+    width: 100%;
+    background-color: teal;
+}
+
+#menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+#menu ul li{
+    float: left;
+}
+
+#menu ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding:15px;
+    text-decoration: none;
+  }
+
+#menu ul li a:hover{
+        background-color: #111;
+}
+
+#contentPersonalInfo{
+    visibility: hidden;
+}
+
+#contentPersonalInfo, .flip{
+    top:40%;
+    float: left;
+    height: 50%;
+    width: 50%;
+    background: rgba(245, 245, 245, 0.3);
+    color: white;
+    border: 2px white;
+}
+
+#contentEducation{
+    visibility: hidden;
+}
+
+#contentEducation, .flip{
+    top:40%;
+    float: right;
+    height: 50%;
+    width: 50%;
+    background: rgba(245, 245, 245, 0.3);
+    color: white;
+    border: 2px white;
+}
+
+#contentSkills{
+    visibility: hidden;
+}
+
+#contentSkills, .flip{
+    float: left;
+    height: 50%;
+    width: 50%;
+    background: rgba(245, 245, 245, 0.3);
+    color: white;
+    border: 2px white;
+}
+
+#contentProjects{
+    visibility: hidden;
+}
+
+#contentProjects, .flip{
+    float: right;
+    height: 50%;
+    width: 50%;
+    background: rgba(245, 245, 245, 0.3);
+    color: white;
+    border: 2px white;
+}
+
+#contentWorkingHistory{
+    visibility: hidden;
+}
+
+#contentWorkingHistory, .flip{
+    clear: both;
+    height: 75%;
+    width: 100%;
+    background: rgba(245, 245, 245, 0.3);
+    color: black;
+    border: 2px white;
+}
+
+#footer{
+    clear:both;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 7%;
+    width: 100%;
+    text-align: center;
+    background-color: #333;
+    color: white;
+    border: 2px white;
+}
